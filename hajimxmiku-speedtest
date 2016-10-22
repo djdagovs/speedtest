@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# INSTALL SPEEDTEST.NET
+wget "https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py"
+chmod a+rx speedtest_cli.py
+mv speedtest_cli.py /usr/local/bin/speedtest-cli
+chown root:root /usr/local/bin/speedtest-cli
+
+# info
+clear
+echo "autoscript by HAJIMXMIKU12
+echo "test 1.0 kalau nampak message ni sepatutnya berjaya"
+echo "sila run command: speedtest-cli untuk buat speedtest vps"
+echo "sila run command: speedtest-cli --share untuk share speedtest vps"
+echo "sekian terima kasih menggunakan auto script ini"
+echo "==================================================================="
