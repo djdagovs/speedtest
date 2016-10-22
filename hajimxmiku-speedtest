@@ -9,7 +9,7 @@ chown root:root /usr/local/bin/speedtest-cli
 # info
 clear
 echo "autoscript by HAJIMXMIKU12"
-echo "test 1.0 kalau nampak message ni sepatutnya berjaya"
+echo -e \e[33m "test 1.0 kalau nampak message ni sepatutnya berjaya"
 echo "sila run command: speedtest-cli untuk buat speedtest vps"
 echo "sila run command: speedtest-cli --share untuk share speedtest vps"
 echo "sekian terima kasih menggunakan auto script ini"
